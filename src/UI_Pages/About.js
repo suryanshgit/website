@@ -1,5 +1,5 @@
 
-import images from '../Backend/images/vada_pav.jpg'
+
 import './About.css'
 
 
