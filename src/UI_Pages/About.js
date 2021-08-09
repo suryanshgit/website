@@ -13,7 +13,7 @@ const About = () => {
                 
                 <div className="main">
                     <div className="profileImage" >
-                        <img src="images/Me.jpg" alt="myself" width="100%" height="100%" />
+                        <img src="https://github.com/suryanshgit/website/blob/main/public/images/Me.jpg" alt="myself" width="100%" height="100%" />
                     </div>
                     <div className="description">
                         <h6>My name is Suryansh Tiwary</h6>

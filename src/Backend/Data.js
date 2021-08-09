@@ -6,11 +6,11 @@ const data=[
     //   festivals:["Gudi Padwa","Ganesh Chaturthi","Pola","Shivaji Jayanti","Kojagiri Purnima"],
     //   places:["Shirdi","Ajanta and Ellora","Panchvati","Trimbakeshwar","Bibi ka Maqbara"]
     images:[
-        "../Food_pics/Maharashtrian_food/puran_poli.jpg",
-        "../Food_pics/Maharashtrian_food/misal_pav.jpg",
-        "../Food_pics/Maharashtrian_food/modak.jpg",
-        "../Food_pics/Maharashtrian_food/pav_bhaji.jpeg",
-        "../Food_pics/Maharashtrian_food/vada_pav.jpg" 
+        "https://github.com/suryanshgit/website/blob/main/public/Food_pics/Maharashtrian_food/puran_poli.jpg",
+        "https://github.com/suryanshgit/website/blob/main/public/Food_pics/Maharashtrian_food/misal_pav.jpg",
+        "https://github.com/suryanshgit/website/blob/main/public/Food_pics/Maharashtrian_food/modak.jpg",
+        "https://github.com/suryanshgit/website/blob/main/public/Food_pics/Maharashtrian_food/pav_bhaji.jpeg",
+        "https://github.com/suryanshgit/website/blob/main/public/Food_pics/Maharashtrian_food/vada_pav.jpg" 
 
     ],
       food:["Puran Poli","Misal Pav","Modak","Pav Bhaji","Vada Pav"]

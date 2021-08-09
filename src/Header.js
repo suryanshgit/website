@@ -69,26 +69,26 @@ if (login.state) {
     return (
         <>
             <div className=" main-div" >
-                <div className=" brand-name"> <Link className="navlink" to="/reactwebsite">Foodpedia</Link></div>
+                <div className=" brand-name"> <Link className="navlink" to="/">Foodpedia</Link></div>
                 <div className=" menu-container " >
                     <ul className={flag ? "mobile-view" : "desktop-view"}>
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/home" >Home</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/home" >Home</NavLink>
                         </li>
                         <li className="mainMenu">
-                            <NavLink className="navlink mainMenu-content " activeClassName="selected_class" to="/reactwebsite/content" >Content </NavLink>
+                            <NavLink className="navlink mainMenu-content " activeClassName="selected_class" to="/content" >Content </NavLink>
                             <ul className="subMenu">
-                                <li><NavLink className="navlink " to="/reactwebsite/content/Maharashtra">Maharashtra</NavLink></li>
-                                <li><NavLink className="navlink " to="/reactwebsite/content/UP">Uttar Pradesh</NavLink></li>
-                                <li><NavLink className="navlink " to="/reactwebsite/content/Bihar">Bihar</NavLink></li>
+                                <li><NavLink className="navlink " to="/content/Maharashtra">Maharashtra</NavLink></li>
+                                <li><NavLink className="navlink " to="/content/UP">Uttar Pradesh</NavLink></li>
+                                <li><NavLink className="navlink " to="/content/Bihar">Bihar</NavLink></li>
                             </ul>
 
                         </li>
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/about">About</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/about">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/logout">Logout</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/logout">Logout</NavLink>
                         </li>
 
 
@@ -111,21 +111,21 @@ else {
         <>
            
             <div className=" main-div" >
-                <div className=" brand-name"> <Link className="navlink" to="/reactwebsite/">Foodpedia</Link></div>
+                <div className=" brand-name"> <Link className="navlink" to="/">Foodpedia</Link></div>
                 <div className=" menu-container " >
                     <ul className={flag ? "mobile-view" : "desktop-view"}>
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/home" >Home</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/home" >Home</NavLink>
                         </li>
                         
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/about">About</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/about">About</NavLink>
                         </li>
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/login">Login</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/login">Login</NavLink>
                         </li>
                         <li>
-                            <NavLink className="navlink" activeClassName="selected_class" to="/reactwebsite/register">Register</NavLink>
+                            <NavLink className="navlink" activeClassName="selected_class" to="/register">Register</NavLink>
                         </li>
 
 
