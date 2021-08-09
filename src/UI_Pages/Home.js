@@ -17,7 +17,7 @@ const Home=()=>{
         <>
         <div style={{minHeight:'80vh'}}>
             <div className="home-picture">
-                <img className="pic image-fluid" src="https://github.com/suryanshgit/website/blob/main/public/images/morning.jpg" width="100%"  height="60%" />
+                <img className="pic image-fluid" src="images/morning.jpg" width="100%"  height="60%" />
             </div>
 
             <div className="home-description">

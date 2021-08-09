@@ -14,7 +14,7 @@ const About = () => {
                 <div className="main">
                     <div className="profileImage" >
 
-                        <img src="" alt="myself" width="100%" height="100%" />
+                        <img src="images/Me.jpg" alt="myself" width="100%" height="100%" />
 
                     </div>
                     <div className="description">
